@@ -1,0 +1,9 @@
+---
+name: xenial_ssm
+
+templates: {}
+
+packages:
+- amazon-ssm-agent.deb
+
+properties: {}

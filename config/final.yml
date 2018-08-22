@@ -1,0 +1,8 @@
+---
+name: bosh-xenial-ssm-agent
+blobstore:
+  provider: s3
+  options:
+    bucket_name: bosh-amazon-ssm-agent-xenial
+    region: us-east-2
+    host: s3-us-east-2.amazonaws.com

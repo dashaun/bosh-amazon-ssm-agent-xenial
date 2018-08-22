@@ -1,0 +1,4 @@
+check process xenial_ssm
+  matching "/usr/bin/amazon-ssm-agent"
+  start program "/usr/sbin/service amazon-ssm-agent start"
+  stop program "/usr/sbin/service amazon-ssm-agent stop"
